@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-pane {
+    width: 40%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.right-pane {
+    width: 60%;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.note-form input, .note-form textarea, .note-form select, .note-form button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.note-form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.note-form button:hover {
+    background-color: #218838;
+}
+
+.notes-list {
+    margin-top: 20px;
+}
+
+.note {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: both;
+    overflow: auto;
+}
+
+.note h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.note p {
+    margin: 5px 0;
+}
+
+.note button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+

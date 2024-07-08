@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-pane">
+            <h1>Notes</h1>
+            <div class="notes-list" id="notes-list">
+                <!-- Notes will be displayed here -->
+            </div>
+        </div>
+        <div class="right-pane">
+            <h1>Note Editor</h1>
+            <div class="note-form">
+                <input type="hidden" id="note-index">
+                <input type="text" id="note-title" placeholder="Title">
+                <textarea id="note-content" placeholder="Content"></textarea>
+                <input type="text" id="note-link" placeholder="Link (optional)">
+                <select id="note-type">
+                    <option value="general">General</option>
+                    <option value="work">Work</option>
+                    <option value="personal">Personal</option>
+                </select>
+                <button id="save-note">Save Note</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
